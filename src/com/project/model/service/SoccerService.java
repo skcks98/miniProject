@@ -255,7 +255,7 @@ public class SoccerService {
 						System.out.println("수정 완료");
 						break;
 						
-					case 0: System.out.println("선수의 정보가 수정되었습니다.");
+					case 0: System.out.println(player.getName()+ "의 정보가 수정되었습니다.");
 						break;
 					default : System.out.println("메뉴에 있는 번호만 선택하세요"); break;
 					
