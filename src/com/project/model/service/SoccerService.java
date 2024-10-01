@@ -373,7 +373,7 @@ public class SoccerService {
 	 * 이적 명단 선수 삭제 메서드
 	 */
 	public void DeleteTransferPlayer() {
-		System.out.print("<이적 명단 선수 삭제>");
+		System.out.print("<이적 명단 선수 삭제>/n");
 		
 		System.out.println("이적 명단에서 삭제할 선수 이름을 입력하세요 : ");
 		String name = sc.nextLine();
@@ -394,6 +394,7 @@ public class SoccerService {
 	 * 이적 명단 전체 조회
 	 */
 	public void SelectAllTransferPlayer() {
+		System.out.println("<이적 명단>");
 		
 		if(transferList.isEmpty()) {
 			System.out.println("이적 명단에 선수가 없습니다.");
